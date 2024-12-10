@@ -47,13 +47,13 @@ public class MainActivity extends AppCompatActivity {
                 String passConf = ((EditText) findViewById(R.id.form3)).getText().toString().trim();
 
 
-                if (email.indexOf('@')!=-1) {
+                if (!email.contains("@")) {
                     text_2.setText("Obszar komunikatów: \n E-mail nie zawiera @");
                 }
                 else if (!pass.equals(passConf)) {
                     text_2.setText("Obszar komunikatów: \n Hasła się różnią");
                 } else {
-                    text_2.setText("Obszar komunikatów: \n Witaj "+ email);
+                    text_2.setText("Obszar komunikatów: \n Zarejestrowano: "+ email);
 
                 }
             }
