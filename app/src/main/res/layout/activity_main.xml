@@ -108,7 +108,7 @@
         android:layout_height="wrap_content"
         android:text="Obszar komunikatów:"
 
-        android:padding="20dp"
+        android:layout_margin="20dp"
         android:layout_gravity="center"
         />
 
