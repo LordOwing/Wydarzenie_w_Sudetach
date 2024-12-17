@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
 
 
                 if (!email.contains("@")) {
-                    text_2.setText("Obszar komunikatów: \n E-mail nie zawiera @");
+                    text_2.setText("Obszar komunikatów: \n Nieprawidłowy adres e-mail");
                 }
                 else if (!pass.equals(passConf)) {
                     text_2.setText("Obszar komunikatów: \n Hasła się różnią");
